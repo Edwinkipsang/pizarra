@@ -1,0 +1,4 @@
+@use "../../utilities/variables" as *;
+div h2{
+    @include flex(space-between, center);  
+}

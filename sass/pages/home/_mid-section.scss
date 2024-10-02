@@ -1,0 +1,53 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+ 
+.ul-section{
+    @include flex (space-between,center) ;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width:70%;
+    padding-left: 250px;
+}
+.ul-heading{
+    margin-left:80px
+    
+}
+.hr{
+    width:80%;
+    margin-right:80px ;
+    &:hover {color:$primary-color}
+}
+
+.mid-section{
+    padding-left: 40px;
+    
+  }
+  .special-menu{
+      padding-left: 40%;
+  }
+  .new{
+      padding-left: 30px;
+      color:$primary-color;
+      font-size:24px;
+      font-weight: bold;
+      text-decoration: double;
+      margin-bottom: 30px;
+  }
+  .special{
+      
+      font-weight: bolder;
+      font-size: 50px;
+  }
+.mid-content{
+    
+}
+.container{
+    @include flex (space-between,center) ;
+}
+ul{
+    li{
+        &:hover {
+            color:$primary-color
+        }
+    }
+}

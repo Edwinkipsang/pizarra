@@ -1,13 +1,10 @@
 @use "../../utilities/variables" as *;
 
 @use "../../utilities/mixins" as *;
-section{
+.hero-content{
+    @include flex (space-between, center);
     .hero-section{
-        .hero-content{
-            @include flex (space-between, center);
-        }
-       
-
+            
         padding-left: 50px;
     }
   }
@@ -75,7 +72,8 @@ section{
     margin: 20px;
 }
 .hero-pizza{
-    padding-top: 50px;
+    margin-right:400px;
+    padding-top: 30px;
 }
 
 .part{

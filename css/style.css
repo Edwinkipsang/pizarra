@@ -238,5 +238,31 @@ ul li:hover {
 }
 
 #brackets {
-  color: #F4F7FB;
+  color: #8a8a8a;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#h3 {
+  padding: 20px;
+}
+
+#ksh {
+  padding-left: 40px;
+}
+
+.btn-view {
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 6px;
+  font-size: 26px;
+  margin-left: 45%;
 }

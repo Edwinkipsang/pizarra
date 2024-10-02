@@ -13,34 +13,33 @@ nav {
           a {
             padding: 10px;
             display: inline-block;
-            
 
             &:hover {
               background-color: $primary-color;
-              color:#fff
-            
+              color: #fff;
             }
           }
         }
       }
     }
-    .nav-right{
-        @include flex (space-between,center);
-    .fa-bars {
-            //display:none
-        }
+    .nav-right {
+      @include flex(space-between, center);
+      .fa-bars {
+        //display:none
+      }
     }
   }
 }
+
 //    media queries
-@media screen and (max-width:600px){
-    .nav-center{
-        display:none
+@media screen and (max-width: 600px) {
+  .nav-center {
+    display: none;
+  }
+  .nav-right {
+    gap: 10px;
+    .fa-bars {
+      display: inline-block;
     }
-    .nav-right{
-        gap:10px;
-    .fa-bars{
-            display:inline-block
-        }
-    }
+  }
 }

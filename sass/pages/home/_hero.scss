@@ -1,4 +1,62 @@
 @use "../../utilities/variables" as *;
-div h2{
-    @include flex(space-between, center);  
+
+@use "../../utilities/mixins" as *;
+section{
+    // background-color: $primary-color;
+    .hero-section{
+        padding-left: 50px;
+        .hero-content{
+            @include flex (space-between, center);
+        }
+    }
+  }
+  .hero-section{
+    // @include flex (space-between, center);
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal
+  }
+  #h{
+    color:$primary-color
+  }
+  div p{
+    font-weight: 400
+  }
+  #input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .btn-search{
+    background-color: $black;
+    color:#fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+  }
+  .tools-section{
+    @include flex (space-between, center);
+    width: 800px;
+    // height: 30vh;
+    // background-color: $light-grey;
+   
+  }
+.tools{
+    background-color: $black;
+    border-radius: 50%;
+    border:2px solid #fff;
+    gap:5px;
+    margin-left: 30px;
+
+
+}
+.tool1{
+    border:2px solid $black;
+    background-color: $light-grey;
+    border-radius: 5px;
+    margin: 20px;
+}
+.part{
+    padding-left: 40px;
+}
+.hr{
+    margin-left: 50px;
 }

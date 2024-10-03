@@ -2,6 +2,7 @@
 @use "../../utilities/mixins" as *;
 nav {
   background-color: $light-grey;
+  
   .nav {
     @include flex(space-between, center);
 

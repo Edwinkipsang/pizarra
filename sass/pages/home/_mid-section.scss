@@ -7,6 +7,7 @@
     padding-bottom: 20px;
     width:70%;
     padding-left: 250px;
+    font-family: "kanit",sans-serif
 }
 .ul-heading{
     margin-left:80px
@@ -62,6 +63,9 @@ ul{
     padding:10px 30px;
     margin-top:30px;
     margin-left: 50px;
+    &:hover{
+        background-color: $grey;
+    }
 }
 #h3{
     padding:20px ;
@@ -75,4 +79,7 @@ padding-left: 40px;
     border-radius: 6px;
     font-size: 26px;
     margin-left: 45%;
+    &:hover{
+        background-color: $grey;
+    }
 }

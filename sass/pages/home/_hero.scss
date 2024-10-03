@@ -3,6 +3,7 @@
 @use "../../utilities/mixins" as *;
 .hero-content{
     @include flex (space-between, center);
+    font-family: "kanit",sans-serif;
     .hero-section{
             
         padding-left: 50px;
@@ -45,10 +46,14 @@
     border-bottom-right-radius: 5px;
     padding: 10px;
     margin-top: 5px;
-    font-weight: 300px
+    font-weight: 300px;
+    &:hover{
+      background-color: $grey;
+  }
   }
   .tools-section{
-    @include flex ( space-between,center);
+    @include flex ( center,center);
+    gap:30px;
     width: 800px;
     // height: 30vh;
     margin-top: 50px;
@@ -64,6 +69,7 @@
     margin-left: 90px;
 
 
+border:8px solid $black
 }
 .tool1{
     border:2px solid #fff;
